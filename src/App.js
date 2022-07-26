@@ -1,7 +1,17 @@
+// src/App.js
+
+
+// import header component
+import Footer from "./components/Footer";
+// import footer component
+import Header from "./components/Header";
+
 function App() {
   return (
     <div>
-      <h1 className="text-center text-6xl">React with Tailwind CSS</h1>
+      <Header />
+      <div className="min-h-[60vh]"></div>
+      <Footer />
     </div>
   );
 }
